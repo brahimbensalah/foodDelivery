@@ -1,0 +1,94 @@
+*,
+*::before,*::after{
+    box-sizing: border-box;
+   font-family: 'Pecita',sans-serif;
+}
+body{
+    background-image: url('../images/zebra2.png');
+   background-color:#5C3018;
+
+}
+.container-header{
+    display: flex;
+    /* background-color: aqua; */
+    height: 5rem;
+    justify-content: space-between ;
+
+}
+.container-header .item{
+   
+    width: 7rem;
+    height: 4rem;
+    margin: 0 60px;
+    color: #F6EBD0;
+
+}
+
+.logo{
+    width:5rem;
+    
+}
+.button1{
+    width:11rem;
+    height: 3rem;
+    font-size: 40px;
+    border: 0;
+    border-radius: 3rem;
+   background:none;
+   color: #F6EBD0;
+}
+
+.button2{
+    width:11rem;
+    height: 3rem;
+    font-size: 40px;
+    border: 0;
+    background-color: #F6EBD0;
+    border-radius: 3rem;
+}
+.header .item-buttom{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 10px;
+}
+/* box contact */
+.containe-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F6EBD0;
+    font-size: 3rem;
+    width: 100%;
+    margin: 7% auto;
+    text-transform: uppercase;
+    /* justify-content: space-between; */
+    gap: 2rem;
+}
+.containe-contact .item-2 ,.item-3,.item-4
+{
+    width: 35rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+
+
+}
+.containe-contact .input {
+    width: 15rem;
+    height: 2.3rem;
+    background-color: #D9D9D9;
+}
+.item-5{
+    width: 30rem;
+}
+.item-5 .button{
+    background-color: #F6EBD0;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 3rem;
+    font-size: 2rem;
+   
+   float: right;
+}

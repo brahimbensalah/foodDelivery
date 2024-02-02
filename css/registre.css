@@ -1,0 +1,59 @@
+body{
+    background-image: url('../images/zebra.png');
+}
+.registre{
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4rem;
+    width: auto;
+    text-transform: uppercase;
+    gap: 10px;
+    color:#5C3018
+}
+.item-registre-1{
+    display: flex;
+    align-items: center;
+
+}
+.item-registre-2,.item-registre-3,
+.item-registre-4,.item-registre-5{
+    width: 50rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-between;
+
+}
+.item-registre-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+}
+.item-r > .input{
+    width: 18rem;
+    height: 2.2rem;
+    background-color: #F6DC98;
+    border-color:#5C3018;
+}
+.item-r > .button{
+    color: white;
+    background-color: black;
+    width: 17rem ;
+    height: 3rem;
+    border-radius: 1.5rem;
+    align-items: center;
+    font-size: 2rem;
+   
+}
+.container-header .button1{
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    border: 0;
+    background:none ;
+    
+}

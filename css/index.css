@@ -1,0 +1,359 @@
+*,
+*::before,*::after{
+    box-sizing: border-box;
+   font-family: 'Pecita',sans-serif;
+}
+body{
+   background-color: #F6EBD0;
+
+}
+
+.container-header{
+    display: flex;
+    /* background-color: aqua; */
+    height: 5rem;
+    justify-content: space-between ;
+
+}
+.container-header .item{
+   
+    width: 7rem;
+    height: 4rem;
+    margin: 0 60px;
+}
+
+.logo{
+    width:5rem;
+    
+}
+.container-header .item-button{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 2rem;
+}
+.button{
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    border: 0;
+    background-color: #F6EBD0;
+
+    
+}
+.container-header .button3{
+    width:11rem;
+    height: 3rem;
+    font-size: 40px;
+    border: 0;
+    border-radius: 3rem;
+    background-color:#5C3018 ;
+    color: #F6EBD0;
+    margin-top: 13px ;
+}
+
+/* container slide ******************************************************** */
+.container-slide{
+    margin-top: 2rem;
+    height: 35rem;
+    background-image: url('../images/back-home.png');
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+.container-slide .itemG{
+    height:30rem;
+    width: 100%;
+    /* border: 5px solid black; */
+}
+.container-slide .item1{
+    display:   flex;
+    flex-direction: column;
+    align-items:center ;
+    width: 65%;
+}
+.text p{
+    width: 100%;
+    font-size: 4.1rem;
+    text-transform: uppercase;
+    text-align: center;
+    color:#5C3018
+    
+}
+.itemG .button{
+    background-color: black;
+    color: aliceblue;
+    width: 17rem;
+    height: 4rem;
+    border-radius:3rem ;
+}
+
+.container-slide .item2{
+    width: 100rem;
+    display: grid;
+    grid-template-columns: 70px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px ;
+    grid-template-rows: 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px  ;
+}
+
+.itemG .item-1{
+    grid-area: 1 / 1 / 1 / 7;
+}
+.itemG .item-2{
+     grid-area:  5/ 1 / 4 / 8 ; 
+
+}
+
+.itemG .item-3{
+    grid-area:  2/ 12 / 2 / 7 ;
+    
+}
+.offre{
+    
+    position: relative;
+    width:40%;
+}
+
+/* ******************Go Vegan************************************* */
+.container-vegan{
+    height: 60rem;
+    /* border: 5px solid black; */
+    top: -13rem;
+    z-index: -1;
+    display: flex;
+    position: relative;
+    display: grid;
+    background-color: #5C3018;
+    grid-template-columns:70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px  70px 70px 70px 70px 70px 70px 70px 70px  70px 70px 70px 60px  ;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+
+}
+.container-vegan .item-1{
+    /* border: 5px solid white; */
+    grid-area:  1 / 11  /3  /28   ;
+    background-image: url('../images/vegan.png');
+}
+.container-vegan .item-2{
+    /* border: 5px solid white; */
+    grid-area:  3 / 1  /13  /14   ;
+    display: grid;
+}
+.container-vegan .item-3{
+    /* border: 5px solid white; */
+    display: grid;
+    grid-area:  3 / 14  /12  /14   ;
+    grid-template-columns:70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 50px;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px 70px 70px  ;
+
+}
+.img-food6{
+    position: relative;
+    display: grid;
+    grid-area:  8 / 4  / 4  /8   ;
+
+}
+
+.item-3 .description{
+    /* border: 5px solid rgb(204, 36, 36); */
+    grid-area:  2 / 3  / 9  /12   ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+}
+.item-3 .description .title{
+font-size: 6rem;
+/* margin:0; */
+margin-bottom: 0;
+margin-top: 0;
+margin-right: 3%;
+}
+.item-3 .description .para{
+    width: 130%;
+    font-size: 3rem;
+    align-items: center;
+}
+/* ****************** Menu  ************************************* */
+
+.container-menu{
+    height: 60rem;
+    margin-top: -13rem ;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-auto-columns: auto;
+    grid-template-columns:repeat(27,70px)                          ;
+    grid-template-rows: repeat(12,70px)  ;
+    background-image: url('../images/popmenu.png');
+
+}
+.container-menu .item-title{
+    border: 1.5rem solid #3A2A21;
+    border-radius: 50%;
+    height: 10rem ;
+    grid-area: 1/ 10/ 1/19 ;
+    background-color: #A8826D;
+    margin-top: -5rem;
+}
+.container-menu .item-title .title{
+    font-size: 3.8rem;
+    color: white;
+    margin-left: 4rem;   
+   margin-top: 10px;
+}
+.container-menu .item-card{
+    margin-top: 3rem;
+    display: grid;
+      grid-template-columns:39rem 40rem 39rem ;
+    grid-template-rows: 25rem 25rem  ;
+}
+.container-menu .item-card .products{
+    /* border: 5px solid #3A2A21; */
+    display: flex;
+}
+.container-menu .item-card .products .s-product{
+    border: 2px solid #A8826D;
+    background-color: #F6DC98;
+    align-items: center;
+    width: 30rem;
+    height: 20rem;
+    margin: 5rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.container-menu .cercle{
+    width: 25rem;
+    height: 19rem;
+    border: 2px solid black ;
+    border-radius:100% ;
+    background-color: #F6EBD0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.container-menu .tag{
+    width: 12rem;
+    height: 3rem;
+    border: 2px solid black ;
+    border-radius:3rem ;
+    margin-top: -2rem;
+    background-color: black;
+    color: white;
+}
+.container-menu .cercle .img-food{
+    /* margin-left: -3%; */
+    height: 100%;
+}
+
+.tag p{
+    font-size: 2rem;
+    margin: auto;
+    width: 90%;
+
+
+}
+/* ******************Cuisines************************************* */
+
+.container-cuisine{
+    height: 60rem ;
+    background-color:#5C3018;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container-cuisine .cuisine-title {
+  font-size: 4rem;
+  color: white;
+}
+
+.container-cuisine .cuisine-type{
+    height: 40rem;
+    border: 5px solid black;
+    width: 70rem;
+}
+
+
+/****************************************footer*********************************/
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    
+   
+    height: 10rem;
+    /* background-color: #5C3018; */
+}
+.container-footer .item-img{
+    width: 100%;  
+    height: 7rem; 
+    background-image: url('../images/footer.png');
+    background-color: #5C3018;
+}
+
+ .container-footer .item-footer{
+   display: flex; 
+    flex-direction: row;
+   
+   
+
+
+}
+ .container-footer .itemfooter{
+    width: 4rem;
+    height: 7rem;
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: row;   
+    flex-grow: 1;
+}
+.container-footer .item-icon-icon{
+    display: flex;
+    margin: 15px auto;
+    gap: 2rem; 
+}
+.item-logo  p{
+    font-size: 3rem;
+    margin: auto 0;
+    color: #5C3018;
+   
+}
+.logofooter{
+    width:5rem;
+    margin-top: 1rem;
+    
+}
+.item-icon {
+    width: 4rem;
+    height: 7rem;
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    flex-grow: 1;
+    font-size: 1.5rem;
+    margin-top: auto;
+}
+.item-icon-text p{
+    margin: 0;
+}
+.item-footer .item-button{
+   align-items: center;
+}
+
+.item-footer .footer-button{
+    background-color: #5C3018;
+    color: white;
+    width: 13rem;
+    height: 3rem;
+    border-radius: 3rem;
+    margin: auto;
+    font-size: 2rem;
+
+}
+
+
+
